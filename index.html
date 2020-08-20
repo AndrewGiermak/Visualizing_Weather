@@ -29,14 +29,17 @@
             </div>
 
             <div class="nav navbar-nav navbar-right">
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visualizations<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="temp.html">Maximum Temperature</a></li>
-                        <li><a href="humidity.html">Humidity</a></li>
-                        <li><a href="cloud.html">Cloudiness</a></li>
-                        <li><a href="wind.html">Wind Speed</a></li>
-                    </ul>
-                </li>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    Plots
+                    </button>
+                    <div class="dropdown-menu">
+                    <a class="temp.html" href="#">Maximum Temperature</a>
+                    <a class="humidity.html" href="#">Humidity</a>
+                    <a class="cloud.html" href="#">Cloudiness</a>
+                    <a class="wind.html" href="#">Wind Speed</a>
+                </div>
+            </div>
                 <li><a href="comparison.html"> Comparison</a></li>
                 <li><a href="data.html"> Data</a></li>                                           
             </div>
